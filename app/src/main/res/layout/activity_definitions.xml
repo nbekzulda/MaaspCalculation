@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Definitions"
+    android:background="@color/backgroundfragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="5dp"
+        android:text="Definitions"
+        android:textColor="#808080"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="619dp"
+        android:layout_marginLeft="7dp"
+        android:text="A,B,C - designation for the Annulus\n
+ACC - accessory (e.g. SPM or landing nipple)\n
+MG(kilopascals per metre) - Mud or brine pressure gradient\n
+PC(kilopascals) - Collapse pressure\n
+PB(kilopascals) - Burst pressure \n
+FS (kilopascals per metre)- Formation strength gradient\n
+BF(kilopascals per metre) - Base fluid (refers to base fluid of mud in outer casing)\n
+TVD(metres) - True vertical depth (Dtvd) \n
+FP(kilopascals per metre) - Formation pressure\n
+MAASP(kilopascals) - Maximum allowable Annular Surface Pressure\n
+Form(kilopascals) - Formation pressure  \n
+G - Gradient\n
+LH - Liner Hanger\n
+PP - Production Packer\n
+RD - Rupture Disk\n
+SH - Casing shon\n
+SV - Safety Valve\n
+TBG - Tubing\n
+TOC -Top of cement\n
+MudG(kilopascals per metre) - Mud Gradient\n
+GasG(kilopascals per metre) - Gas Gradient\n
+CemG(kilopascals per metre) - Cement Gradient\n
+hGas(meters) - height of Gas column\n
+hMud(meters) - height of Mud column\n
+hCement(meters) - height of Cement column\n
+ProdCGr - Production casing Grade\n
+ExtCGr/ExternalCGr - External casing Grade\n
+NextExternalCGr - Next external casing tube grade\n
+IntCGr - Internal casing grade\n
+Examples of grades: H-40, J-55, K-55, N-80,  L-80, C-90, C-95, T-95, P-110, Q-125\n
+D(meters) - Diameter\n
+t(meters) - thickness of tube wall\n"
+        android:textColor="#FFFF"
+        android:textSize="14sp" />
+
+</LinearLayout>

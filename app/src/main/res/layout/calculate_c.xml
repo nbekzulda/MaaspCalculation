@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculateA"
+    android:background="@color/backgroundfragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Point 1 variables:"
+        android:textColor="#808080"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@drawable/fone">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dtvd.sh.B="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Dtvd.sh.b"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pfs.B="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Pfs.b"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pmg.B="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Pmg.b"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+    <TextView
+        android:text="Point 2 variables:"
+        android:textColor="#808080"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@drawable/fone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="Ppc.A="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Ppc.a"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dtvd.toc="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Dtvd.toc"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mgB="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/MGb"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mgA="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/MGa"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+
+    </TableRow>
+
+    <TextView
+        android:text="Point 3 variables:"
+        android:textColor="#808080"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@drawable/fone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="Ppc.B="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Ppc.b"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dtvd.sh="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Dtvd.sh"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pbf.C="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Pbf.c"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+
+    <TextView
+        android:text="Point 4 variables:"
+        android:textColor="#808080"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@drawable/fone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="IntCGr="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/pgradeC"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/DC"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/tC"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ExtCGrade="
+            android:textColor="#FFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ogradeC"
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/backgroundfragment"
+            android:textColor="#FFFF"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+    </TableRow>
+
+
+    <TextView
+        android:text="Pressure Casing Shoe"
+        android:textColor="#808080"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@drawable/fone">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="31dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="GasG="
+                android:textColor="#FFFF"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ggC"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/backgroundfragment"
+                android:textColor="#FFFF"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MudG="
+                android:textColor="#FFFF"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/mgC"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/backgroundfragment"
+                android:textColor="#FFFF"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CemG="
+                android:textColor="#FFFF"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cgC"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/backgroundfragment"
+                android:textColor="#FFFF"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="31dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="hGas="
+                android:textColor="#FFFF"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/hgasC"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/backgroundfragment"
+                android:textColor="#FFFF"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hMud="
+                android:textColor="#FFFF"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/hmudC"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/backgroundfragment"
+                android:textColor="#FFFF"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hCement="
+                android:textColor="#FFFF"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/hcementC"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/backgroundfragment"
+                android:textColor="#FFFF"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+
+
+        </TableRow>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/MAASP2"
+        android:layout_width="349dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:text="Calculate MAASP"
+        android:textColor="#808080"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="396dp"
+        android:layout_height="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="P1 = "
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/point1c"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:textColor="#FFFF" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="P3 = "
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/point3c"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:textColor="#FFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="PMaasp = "
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/pointMAASPC"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:textColor="#FFFF"
+            android:textSize="12sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="396dp"
+        android:layout_height="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="P2 = "
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/point2c"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:textColor="#FFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="P4 = "
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/point4c"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:textColor="#FFFF"
+            android:textSize="12sp" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="PCs = "
+            android:textColor="#808080" />
+
+        <TextView
+            android:id="@+id/pointCsC"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:textColor="#FFFF"
+            android:textSize="12sp" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/clear3"
+        android:layout_width="349dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:text="clear"
+        android:textColor="#808080"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

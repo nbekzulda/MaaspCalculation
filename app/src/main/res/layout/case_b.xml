@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundfragment">
+
+
+    <LinearLayout
+        android:layout_width="348dp"
+        android:layout_height="615dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="346dp"
+            android:layout_height="432dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/annulus_b" />
+
+        <Button
+            android:id="@+id/calc2"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Go to calculate"
+            android:textColor="@color/backgroundfragment"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
